@@ -82,7 +82,7 @@ class PDFCombinerGui(QtWidgets.QWidget):
         close_button.clicked.connect(self.close)
 
         # create overall interface
-        self.setGeometry(300, 300, 450, 200)
+        self.setGeometry(300, 300, 450, 250)
         self.setWindowTitle('Youtube Downloader')
         self.show()
 
@@ -136,8 +136,6 @@ def pdf_combiner_gui():
     app = QtWidgets.QApplication(sys.argv)
     yt = PDFCombinerGui()
     sys.exit(app.exec())
-
-
 
 
 if __name__ == '__main__':

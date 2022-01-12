@@ -1,2 +1,2 @@
 # pdfcombiner
-GUI to combine PDFs
+GUI to combine PDFs - under construction
